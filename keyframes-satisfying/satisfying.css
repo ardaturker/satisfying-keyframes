@@ -1,0 +1,105 @@
+body{ 
+    background-color: crimson;
+   animation-name: bg;
+   animation-duration:100s;
+    animation-delay:2s;
+    animation-iteration-count:unset;
+}
+div.block1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 130, 161);
+    animation-name: block1an;
+    animation-duration:100s;
+    animation-delay:2s ;
+    animation-iteration-count:unset;
+}
+div.block2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left:100px;
+    background-color:coral;
+    animation-name: block2an;
+    animation-duration:100s;
+    animation-delay:2s;
+    animation-iteration-count:unset;
+}
+
+@keyframes block1an {
+    0% {background-color: royalblue; top:0px; left:0px;}
+    1% {background-color: royalblue; top:0px; left:200px;}
+    2% {background-color: royalblue; top:200px; left:200px;}
+    3% {background-color: royalblue; top:200px; left:0px;}
+    4% {background-color: royalblue; top:0px; left:0px;}
+    5% {background-color: royalblue; top:0px; left:200px;}
+    6% {background-color: royalblue; top:200px; left:200px;}
+    7% {background-color: royalblue; top:200px; left:100px;}
+    8% {background-color: royalblue; top:0px; left:100px;}
+    9% {background-color: royalblue; top:0px; left:300px;}
+    10% {background-color:royalblue; top:200px; left:300px;}
+    11% {background-color:greenyellow; top:200px; left:100px;}
+    12% {background-color:greenyellow; top:0px; left:100px;}
+    13% {background-color:greenyellow; top:0px; left:300px;}
+    14% {background-color:greenyellow; top:200px; left:300px;}
+    15% {background-color:greenyellow; top:200px; left:200px;}
+    16% {background-color:greenyellow; top:0px; left:200px;}
+    17% {background-color:greenyellow; top:0px; left:400px;}
+    18% {background-color:greenyellow; top:200px; left:400px;}
+    19% {background-color:greenyellow; top:200px; left:200px;}
+    20% {background-color:greenyellow; top:0px; left:200px;}
+
+
+
+ }
+ @keyframes block2an {
+    0% {background-color:orange; top:0px; left:100px;}
+    1% {background-color:violet; top:0px; left:100px;}
+    2% {background-color:green; top:0px; left:100px;}
+    3% {background-color:peru; top:0px; left:100px;}
+    4% {background-color:darkkhaki; top:0px; left:100px;}
+    5% {background-color:teal; top:0px; left:100px;}
+    6% {background-color:aqua; top:0px; left:100px;}
+    7% {background-color:greenyellow; top:0px; left:200px;}
+    8% {background-color:greenyellow; top:0px; left:200px;}
+    9% {background-color:greenyellow; top:0px; left:200px;}
+    10% {background-color:greenyellow; top:0px; left:200px;}
+    11% {background-color:greenyellow; top:0px; left:200px;}
+    12% {background-color:greenyellow; top:0px; left:200px;}
+    13% {background-color:greenyellow; top:0px; left:200px;}
+    14% {background-color:greenyellow; top:0px; left:200px;}
+    15% {background-color:greenyellow; top:0px; left:300px;}
+    16% {background-color:greenyellow; top:0px; left:300px;}
+    17% {background-color:greenyellow; top:0px; left:300px;}
+    18% {background-color:greenyellow; top:0px; left:300px;}
+    19% {background-color:greenyellow; top:0px; left:300px;}
+    20% {background-color:greenyellow; top:0px; left:300px;}
+    
+
+ }
+@keyframes bg {
+    0% {background-color: rgb(255, 38, 0);}
+    1% {background-color: rgb(223, 210, 28);}
+    2% {background-color: rgb(14, 187, 135);}
+    3% {background-color: rgb(233, 118, 10);}
+    4% {background-color: rgb(224, 157, 245);}
+    5% {background-color: rgb(101, 180, 11);}
+    6% {background-color: rgb(182, 5, 114);}
+    7% {background-color: rgb(114, 179, 209);}
+    8% {background-color: rgb(47, 221, 128);}
+    9% {background-color: rgb(127, 255, 212);}
+    10% {background-color: rgba(16, 35, 212, 0.582);}
+    11% {background-color: rgb(129, 15, 95);}
+    12% {background-color: rgb(106, 151, 1);}
+    13% {background-color: rgb(117, 85, 221);}
+    14% {background-color: rgb(255, 251, 0);}
+    15% {background-color: rgb(195, 32, 32);}
+    16% {background-color: rgb(1, 103, 143);}
+    17% {background-color: rgb(33, 212, 17);}
+    18% {background-color: rgb(230, 36, 139);}
+    19% {background-color: rgb(97, 42, 224);}
+    20% {background-color: chartreuse;}
+    
+}
+    
